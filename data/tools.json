@@ -1,0 +1,307 @@
+{
+  "site": {
+    "name": "AI Tools Hub",
+    "description": "汇总常用 AI 工具，帮助开发者快速找到合适的工具",
+    "author": "赵小帅"
+  },
+  "categories": [
+    {
+      "id": "llm",
+      "name": "大语言模型",
+      "icon": "🤖",
+      "tools": [
+        {
+          "name": "DeepSeek",
+          "url": "https://chat.deepseek.com",
+          "description": "国产免费大模型，代码能力强，中文友好",
+          "pricing": "免费",
+          "tags": ["免费", "国产", "代码"],
+          "rating": 5
+        },
+        {
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com",
+          "description": "OpenAI 出品，行业标杆，功能最全",
+          "pricing": "免费/$20/月",
+          "tags": ["付费", "全能", "生态"],
+          "rating": 5
+        },
+        {
+          "name": "Google Gemini",
+          "url": "https://gemini.google.com",
+          "description": "Google 生态整合，多模态能力强",
+          "pricing": "免费/$20/月",
+          "tags": ["付费", "多模态", "Google"],
+          "rating": 4
+        },
+        {
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "description": "Anthropic 出品，长文本处理强",
+          "pricing": "免费/$20/月",
+          "tags": ["付费", "长文本", "安全"],
+          "rating": 5
+        },
+        {
+          "name": "通义千问",
+          "url": "https://tongyi.aliyun.com",
+          "description": "阿里云出品，中文场景优化",
+          "pricing": "免费",
+          "tags": ["免费", "国产", "阿里"],
+          "rating": 4
+        },
+        {
+          "name": "文心一言",
+          "url": "https://yiyan.baidu.com",
+          "description": "百度出品，中文理解好",
+          "pricing": "免费",
+          "tags": ["免费", "国产", "百度"],
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "name": "AI 编程",
+      "icon": "💻",
+      "tools": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "description": "AI 原生 IDE，代码补全/重构/调试",
+          "pricing": "免费/$20/月",
+          "tags": ["IDE", "补全", "重构"],
+          "rating": 5
+        },
+        {
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "GitHub 官方，VS Code 集成",
+          "pricing": "$10/月",
+          "tags": ["补全", "VS Code", "GitHub"],
+          "rating": 5
+        },
+        {
+          "name": "Codeium",
+          "url": "https://codeium.com",
+          "description": "免费代码补全，支持多 IDE",
+          "pricing": "免费",
+          "tags": ["免费", "补全", "多 IDE"],
+          "rating": 4
+        },
+        {
+          "name": "Tabnine",
+          "url": "https://tabnine.com",
+          "description": "老代码补全工具，隐私保护好",
+          "pricing": "免费/$12/月",
+          "tags": ["补全", "隐私", "本地"],
+          "rating": 4
+        },
+        {
+          "name": "Replit AI",
+          "url": "https://replit.com",
+          "description": "在线 IDE + AI 辅助",
+          "pricing": "免费/$20/月",
+          "tags": ["在线 IDE", "补全", "教学"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "AI 设计",
+      "icon": "🎨",
+      "tools": [
+        {
+          "name": "Midjourney",
+          "url": "https://midjourney.com",
+          "description": "AI 绘画标杆，审美上限高",
+          "pricing": "$10-120/月",
+          "tags": ["绘画", "付费", "高质量"],
+          "rating": 5
+        },
+        {
+          "name": "Stable Diffusion",
+          "url": "https://stability.ai",
+          "description": "开源可本地部署，可控性强",
+          "pricing": "免费",
+          "tags": ["绘画", "开源", "本地"],
+          "rating": 4
+        },
+        {
+          "name": "DALL-E 3",
+          "url": "https://openai.com/dall-e-3",
+          "description": "OpenAI 出品，理解准确",
+          "pricing": "包含在 ChatGPT Plus",
+          "tags": ["绘画", "付费", "准确"],
+          "rating": 4
+        },
+        {
+          "name": "Leonardo.ai",
+          "url": "https://leonardo.ai",
+          "description": "游戏资产生成强",
+          "pricing": "免费/$10-48/月",
+          "tags": ["绘画", "游戏", "资产"],
+          "rating": 4
+        },
+        {
+          "name": "Figma AI",
+          "url": "https://figma.com",
+          "description": "设计工具集成 AI",
+          "pricing": "免费/$12-45/月",
+          "tags": ["UI", "设计", "协作"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "AI 写作",
+      "icon": "✍️",
+      "tools": [
+        {
+          "name": "Notion AI",
+          "url": "https://notion.so",
+          "description": "笔记工具集成 AI",
+          "pricing": "$10/月",
+          "tags": ["笔记", "写作", "整理"],
+          "rating": 4
+        },
+        {
+          "name": "Jasper",
+          "url": "https://jasper.ai",
+          "description": "营销文案专用",
+          "pricing": "$39-125/月",
+          "tags": ["营销", "文案", "付费"],
+          "rating": 4
+        },
+        {
+          "name": "Copy.ai",
+          "url": "https://copy.ai",
+          "description": "营销内容生成",
+          "pricing": "免费/$36-249/月",
+          "tags": ["营销", "文案", "社交媒体"],
+          "rating": 3
+        },
+        {
+          "name": "Grammarly",
+          "url": "https://grammarly.com",
+          "description": "英文写作助手",
+          "pricing": "免费/$12-15/月",
+          "tags": ["英文", "语法", "校对"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "name": "AI 视频",
+      "icon": "🎬",
+      "tools": [
+        {
+          "name": "Runway",
+          "url": "https://runwayml.com",
+          "description": "AI 视频编辑标杆",
+          "pricing": "免费/$12-95/月",
+          "tags": ["视频", "编辑", "生成"],
+          "rating": 5
+        },
+        {
+          "name": "Pika",
+          "url": "https://pika.art",
+          "description": "文生视频新贵",
+          "pricing": "免费/$8-58/月",
+          "tags": ["视频", "生成", "文生视频"],
+          "rating": 4
+        },
+        {
+          "name": "HeyGen",
+          "url": "https://heygen.com",
+          "description": "数字人视频生成",
+          "pricing": "免费/$24-96/月",
+          "tags": ["数字人", "口播", "营销"],
+          "rating": 4
+        },
+        {
+          "name": "Descript",
+          "url": "https://descript.com",
+          "description": "视频剪辑 + 文字稿编辑",
+          "pricing": "免费/$12-24/月",
+          "tags": ["剪辑", "文字稿", "播客"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "AI 音频",
+      "icon": "🎵",
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io",
+          "description": "TTS 标杆，声音自然",
+          "pricing": "免费/$5-330/月",
+          "tags": ["TTS", "语音", "高质量"],
+          "rating": 5
+        },
+        {
+          "name": "Suno",
+          "url": "https://suno.com",
+          "description": "AI 音乐生成",
+          "pricing": "免费/$8-24/月",
+          "tags": ["音乐", "生成", "歌曲"],
+          "rating": 4
+        },
+        {
+          "name": "Adobe Podcast",
+          "url": "https://podcast.adobe.com",
+          "description": "音频增强/降噪",
+          "pricing": "免费",
+          "tags": ["音频", "增强", "免费"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "AI 效率",
+      "icon": "⚡",
+      "tools": [
+        {
+          "name": "Perplexity",
+          "url": "https://perplexity.ai",
+          "description": "AI 搜索引擎，带引用",
+          "pricing": "免费/$20/月",
+          "tags": ["搜索", "引用", "研究"],
+          "rating": 5
+        },
+        {
+          "name": "Mem",
+          "url": "https://mem.ai",
+          "description": "AI 笔记，自动整理",
+          "pricing": "免费/$15-30/月",
+          "tags": ["笔记", "整理", "知识管理"],
+          "rating": 3
+        },
+        {
+          "name": "Otter.ai",
+          "url": "https://otter.ai",
+          "description": "会议录音转文字",
+          "pricing": "免费/$8-30/月",
+          "tags": ["会议", "转录", "笔记"],
+          "rating": 4
+        },
+        {
+          "name": "Zapier AI",
+          "url": "https://zapier.com",
+          "description": "自动化工作流 + AI",
+          "pricing": "免费/$20-150/月",
+          "tags": ["自动化", "工作流", "集成"],
+          "rating": 4
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-03-19"
+}
