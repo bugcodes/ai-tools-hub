@@ -48,7 +48,10 @@
 - 通义千问（免费）
 - 文心一言（免费）
 
-### 💻 AI 编程（5 个）
+### 💻 AI 编程（8 个）
+- **Google Antigravity（免费）** ⭐ 大哥常用
+- **Codex（按量付费）** ⭐ 大哥常用
+- **Trae（免费）** ⭐ 大哥常用
 - Cursor（$20/月）
 - GitHub Copilot（$10/月）
 - Codeium（免费）
@@ -62,8 +65,12 @@
 - Leonardo.ai（$10-48/月）
 - Figma AI（$12-45/月）
 
-### ✍️ AI 写作（4 个）
+### 📚 文档工具（3 个）
+- **Google Notebook LLM（免费）** ⭐ 大哥常用
 - Notion AI（$10/月）
+- Grammarly（$12-15/月）
+
+### ✍️ AI 写作（3 个）
 - Jasper（$39-125/月）
 - Copy.ai（$36-249/月）
 - Grammarly（$12-15/月）
