@@ -167,6 +167,38 @@
       ]
     },
     {
+      "id": "creation",
+      "name": "创作工具",
+      "icon": "🧠",
+      "tools": [
+        {
+          "name": "YouMind",
+          "url": "https://youmind.com",
+          "description": "AI 思维导图和创作工具，帮助整理思路、生成内容",
+          "pricing": "免费/付费",
+          "tags": ["思维导图", "创作", "整理", "大哥常用"],
+          "rating": 5,
+          "featured": true
+        },
+        {
+          "name": "XMind AI",
+          "url": "https://xmind.ai",
+          "description": "AI 思维导图工具，自动生成思维导图",
+          "pricing": "免费/$9.99/月",
+          "tags": ["思维导图", "AI", "整理"],
+          "rating": 4
+        },
+        {
+          "name": "Miro AI",
+          "url": "https://miro.com",
+          "description": "在线白板 + AI，团队协作、头脑风暴",
+          "pricing": "免费/$8/月",
+          "tags": ["白板", "协作", "头脑风暴"],
+          "rating": 4
+        }
+      ]
+    },
+    {
       "id": "design",
       "name": "AI 设计",
       "icon": "🎨",
