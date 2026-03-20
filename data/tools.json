@@ -204,6 +204,15 @@
       "icon": "🎨",
       "tools": [
         {
+          "name": "Google Stitch",
+          "url": "https://stitch.google.com",
+          "description": "Google 出品的 AI 设计工具，现代科技感风格，结构化布局，3D 插画",
+          "pricing": "免费/付费",
+          "tags": ["Google", "UI 设计", "3D 插画", "现代科技"],
+          "rating": 5,
+          "featured": true
+        },
+        {
           "name": "Midjourney",
           "url": "https://midjourney.com",
           "description": "AI 绘画标杆，审美上限高",

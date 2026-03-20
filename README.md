@@ -58,7 +58,8 @@
 - Tabnine（$12/月）
 - Replit AI（$20/月）
 
-### 🎨 AI 设计（5 个）
+### 🎨 AI 设计（6 个）
+- **Google Stitch**（免费/付费）⭐ Google 出品，现代科技感
 - Midjourney（$10-120/月）
 - Stable Diffusion（免费）
 - DALL-E 3（ChatGPT Plus 包含）
