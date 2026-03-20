@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>工作生活 AI 工具技术分享</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -126,16 +127,28 @@
     }
     .tag.free { background: #22c55e; }
     .tag.paid { background: #f59e0b; }
-    .code {
-      background: #1e1e1e;
-      color: #d4d4d4;
-      padding: 20px;
+    .tool-card {
+      background: white;
+      border-left: 5px solid #667eea;
+      padding: 25px;
       border-radius: 10px;
-      font-family: "Courier New", monospace;
-      font-size: 14px;
-      line-height: 1.6;
-      overflow-x: auto;
       margin: 15px 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .tool-card h4 {
+      font-size: 24px;
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+    .tool-card .company {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .tool-card .features {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.8;
     }
     .step {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -192,7 +205,12 @@
     <div class="card">
       <div class="emoji">💻</div>
       <h4>AI 编程工具</h4>
-      <p>10 分钟</p>
+      <p>15 分钟</p>
+    </div>
+    <div class="card">
+      <div class="emoji">📚</div>
+      <h4>文档工具</h4>
+      <p>5 分钟</p>
     </div>
     <div class="card">
       <div class="emoji">⚡</div>
@@ -238,7 +256,7 @@
         <td>复杂任务、多模态</td>
       </tr>
       <tr>
-        <td><strong>Gemini</strong></td>
+        <td><strong>Google Gemini</strong></td>
         <td><span class="tag paid">$20/月</span></td>
         <td>Google 生态、多模态</td>
         <td>研究、文档处理</td>
@@ -255,9 +273,44 @@
   </div>
 </div>
 
-<!-- Slide 4: AI 编程工具 -->
+<!-- Slide 4: AI 编程工具 - 大哥常用 -->
 <div class="slide">
-  <h2>💻 AI 编程工具对比</h2>
+  <h2>💻 大哥常用的 AI 编程工具</h2>
+  
+  <div class="tool-card">
+    <h4>🚀 Google Antigravity</h4>
+    <p class="company">🏢 Google | 💰 免费</p>
+    <p class="features">
+      <strong>核心功能：</strong> AI 辅助编程、代码生成、调试<br>
+      <strong>优势：</strong> Google 生态集成、多语言支持、智能补全<br>
+      <strong>适用场景：</strong> 日常开发、快速原型、代码 review
+    </p>
+  </div>
+  
+  <div class="tool-card">
+    <h4>🧠 Codex</h4>
+    <p class="company">🏢 OpenAI | 💰 按量付费</p>
+    <p class="features">
+      <strong>核心功能：</strong> 代码生成、自然语言转代码<br>
+      <strong>优势：</strong> OpenAI 技术、代码理解强、支持多种语言<br>
+      <strong>适用场景：</strong> 复杂代码生成、算法实现、文档生成代码
+    </p>
+  </div>
+  
+  <div class="tool-card">
+    <h4>✏️ Trae</h4>
+    <p class="company">🏢 字节跳动 | 💰 免费</p>
+    <p class="features">
+      <strong>核心功能：</strong> AI 编程助手、智能补全、代码解释<br>
+      <strong>优势：</strong> 中文友好、免费、字节生态集成<br>
+      <strong>适用场景：</strong> 日常开发、学习编程、代码优化
+    </p>
+  </div>
+</div>
+
+<!-- Slide 5: AI 编程工具 - 市场对比 -->
+<div class="slide">
+  <h2>💻 AI 编程工具市场对比</h2>
   <table>
     <thead>
       <tr>
@@ -268,6 +321,24 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><strong>Antigravity</strong></td>
+        <td>Google 生态</td>
+        <td><span class="tag free">免费</span></td>
+        <td>Google 集成、多语言</td>
+      </tr>
+      <tr>
+        <td><strong>Codex</strong></td>
+        <td>API</td>
+        <td><span class="tag paid">按量付费</span></td>
+        <td>代码理解强、灵活</td>
+      </tr>
+      <tr>
+        <td><strong>Trae</strong></td>
+        <td>IDE 插件</td>
+        <td><span class="tag free">免费</span></td>
+        <td>中文友好、免费</td>
+      </tr>
       <tr>
         <td><strong>Cursor</strong></td>
         <td>AI 原生 IDE</td>
@@ -298,7 +369,49 @@
   </div>
 </div>
 
-<!-- Slide 5: 生活效率工具 -->
+<!-- Slide 6: 文档工具 - Google Notebook LLM -->
+<div class="slide">
+  <h2>📚 文档工具：Google Notebook LLM</h2>
+  
+  <div class="tool-card">
+    <h4>📖 Google Notebook LLM</h4>
+    <p class="company">🏢 Google | 💰 免费</p>
+    <p class="features">
+      <strong>核心功能：</strong>
+      <ul>
+        <li>上传 PDF/文档/笔记，AI 自动总结</li>
+        <li>基于文档内容问答</li>
+        <li>自动生成笔记和摘要</li>
+        <li>支持多个文档对比分析</li>
+      </ul>
+      <strong>优势：</strong>
+      <ul>
+        <li>Google 技术，理解准确</li>
+        <li>免费使用</li>
+        <li>支持多种格式（PDF、TXT、Google Docs）</li>
+        <li>引用来源清晰</li>
+      </ul>
+      <strong>适用场景：</strong>
+      <ul>
+        <li>论文阅读和总结</li>
+        <li>技术文档学习</li>
+        <li>会议笔记整理</li>
+        <li>研究报告撰写</li>
+      </ul>
+    </p>
+  </div>
+  
+  <div class="box" style="margin-top: 20px;">
+    <p>💡 <strong>使用技巧：</strong></p>
+    <ul>
+      <li>上传多个相关文档，让 AI 找出关联</li>
+      <li>用自然语言提问，获取精准答案</li>
+      <li>导出笔记时保留引用来源</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Slide 7: 生活效率工具 -->
 <div class="slide">
   <h2>⚡ 生活效率工具</h2>
   <div class="grid">
@@ -341,14 +454,15 @@
   </div>
 </div>
 
-<!-- Slide 6: 推荐组合 -->
+<!-- Slide 8: 推荐组合 -->
 <div class="slide">
   <h2>🎯 个人推荐组合</h2>
   <div class="box">
     <h3>💰 基础版（免费）</h3>
     <ul>
       <li>DeepSeek - 日常问答</li>
-      <li>Codeium - 代码补全</li>
+      <li>Antigravity/Trae - 编程开发</li>
+      <li>Notebook LLM - 文档处理</li>
       <li>Perplexity - 信息搜索</li>
     </ul>
   </div>
@@ -370,7 +484,7 @@
   </div>
 </div>
 
-<!-- Slide 7: 深度实操 - AI 学习 Flink 源码 -->
+<!-- Slide 9: 深度实操 - AI 学习 Flink 源码 -->
 <div class="slide">
   <h2>🎬 深度实操：AI 学习 Flink 源码</h2>
   <p style="font-size: 18px; color: #777; margin-bottom: 20px;">场景：资深 Java 架构师，没接触过 Flink，2 周掌握源码</p>
@@ -416,7 +530,7 @@
   </div>
 </div>
 
-<!-- Slide 8: 关键认知：不知道从哪入手？ -->
+<!-- Slide 10: 关键认知：不知道从哪些类入手？ -->
 <div class="slide">
   <h2>💡 关键认知：不知道从哪些类入手？</h2>
   <div class="box">
@@ -441,10 +555,10 @@
   </div>
 </div>
 
-<!-- Slide 9: AI 生成阅读地图示例 -->
+<!-- Slide 11: AI 生成的阅读地图示例 -->
 <div class="slide">
   <h2>🗺️ AI 生成的 Flink 阅读地图</h2>
-  <div class="code">
+  <div style="background: #1e1e1e; color: #d4d4d4; padding: 20px; border-radius: 10px; font-family: monospace; font-size: 14px; line-height: 1.6; overflow-x: auto;">
 === 第 1 小时：入口 ===
 📍 CheckpointCoordinator.triggerCheckpoint()
   阅读重点：
@@ -479,7 +593,7 @@
   <p style="font-size: 16px; color: #777; margin-top: 20px;">💡 总计 8 小时，精确到每个类的关键方法</p>
 </div>
 
-<!-- Slide 10: 避坑指南 -->
+<!-- Slide 12: 避坑指南 -->
 <div class="slide">
   <h2>⚠️ 避坑指南</h2>
   <div class="grid">
@@ -507,7 +621,7 @@
   </div>
 </div>
 
-<!-- Slide 11: 学习效果对比 -->
+<!-- Slide 13: 学习效果对比 -->
 <div class="slide">
   <h2>📊 学习效果对比</h2>
   <table>
@@ -545,7 +659,7 @@
   </div>
 </div>
 
-<!-- Slide 12: 总结 -->
+<!-- Slide 14: 总结 -->
 <div class="slide">
   <h2>📝 核心要点</h2>
   <div class="box">
@@ -562,7 +676,7 @@
   </div>
 </div>
 
-<!-- Slide 13: 资源与 Q&A -->
+<!-- Slide 15: 资源与 Q&A -->
 <div class="slide">
   <h2>📚 资源分享</h2>
   <div class="box">
@@ -578,7 +692,7 @@
   <p>欢迎提问！</p>
 </div>
 
-<!-- Slide 14: 结束页 -->
+<!-- Slide 16: 结束页 -->
 <div class="slide">
   <div class="emoji">🙏</div>
   <h1>谢谢大家！</h1>
