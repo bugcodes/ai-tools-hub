@@ -66,6 +66,33 @@
       "icon": "💻",
       "tools": [
         {
+          "name": "Google Antigravity",
+          "url": "https://antigravity.google.com",
+          "description": "Google 出品的 AI 编程助手，代码生成、调试、review 一体化",
+          "pricing": "免费",
+          "tags": ["免费", "Google", "全能", "大哥常用"],
+          "rating": 5,
+          "featured": true
+        },
+        {
+          "name": "Codex",
+          "url": "https://openai.com/codex",
+          "description": "OpenAI 代码模型，自然语言转代码，支持多种编程语言",
+          "pricing": "按量付费",
+          "tags": ["OpenAI", "代码生成", "API", "大哥常用"],
+          "rating": 5,
+          "featured": true
+        },
+        {
+          "name": "Trae",
+          "url": "https://trae.com",
+          "description": "字节跳动出品的 AI 编程助手，中文友好，智能补全",
+          "pricing": "免费",
+          "tags": ["免费", "字节", "中文", "大哥常用"],
+          "rating": 5,
+          "featured": true
+        },
+        {
           "name": "Cursor",
           "url": "https://cursor.com",
           "description": "AI 原生 IDE，代码补全/重构/调试",
@@ -103,6 +130,38 @@
           "description": "在线 IDE + AI 辅助",
           "pricing": "免费/$20/月",
           "tags": ["在线 IDE", "补全", "教学"],
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "document",
+      "name": "文档工具",
+      "icon": "📚",
+      "tools": [
+        {
+          "name": "Google Notebook LLM",
+          "url": "https://notebooklm.google.com",
+          "description": "Google 出品的 AI 文档工具，上传 PDF/文档自动总结，基于文档问答",
+          "pricing": "免费",
+          "tags": ["免费", "Google", "文档", "总结", "大哥常用"],
+          "rating": 5,
+          "featured": true
+        },
+        {
+          "name": "Notion AI",
+          "url": "https://notion.so",
+          "description": "笔记工具集成 AI，知识管理、写作辅助",
+          "pricing": "$10/月",
+          "tags": ["笔记", "写作", "整理"],
+          "rating": 4
+        },
+        {
+          "name": "Grammarly",
+          "url": "https://grammarly.com",
+          "description": "英文写作助手，语法检查、风格优化",
+          "pricing": "免费/$12-15/月",
+          "tags": ["英文", "语法", "校对"],
           "rating": 4
         }
       ]
@@ -303,5 +362,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-03-19"
+  "updatedAt": "2026-03-20"
 }
