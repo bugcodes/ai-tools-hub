@@ -177,7 +177,9 @@
             "补全",
             "多 IDE"
           ],
-          "rating": 4
+          "rating": 4,
+          "affiliateUrl": "https://codeium.com?ref=ai-tools-hub",
+          "commission": "免费"
         },
         {
           "name": "Tabnine",
@@ -235,7 +237,9 @@
             "写作",
             "整理"
           ],
-          "rating": 4
+          "rating": 4,
+          "affiliateUrl": "https://notion.so?ref=ai-tools-hub",
+          "commission": "10% 佣金"
         },
         {
           "name": "Grammarly",
@@ -247,7 +251,9 @@
             "语法",
             "校对"
           ],
-          "rating": 4
+          "rating": 4,
+          "affiliateUrl": "https://grammarly.com?ref=ai-tools-hub",
+          "commission": "免费"
         }
       ]
     },
@@ -325,7 +331,9 @@
             "付费",
             "高质量"
           ],
-          "rating": 5
+          "rating": 5,
+          "affiliateUrl": "https://midjourney.com?ref=ai-tools-hub",
+          "commission": "20% 佣金"
         },
         {
           "name": "Stable Diffusion",
@@ -392,7 +400,9 @@
             "写作",
             "整理"
           ],
-          "rating": 4
+          "rating": 4,
+          "affiliateUrl": "https://notion.so?ref=ai-tools-hub",
+          "commission": "10% 佣金"
         },
         {
           "name": "Jasper",
@@ -428,7 +438,9 @@
             "语法",
             "校对"
           ],
-          "rating": 4
+          "rating": 4,
+          "affiliateUrl": "https://grammarly.com?ref=ai-tools-hub",
+          "commission": "免费"
         }
       ]
     },
@@ -447,7 +459,9 @@
             "编辑",
             "生成"
           ],
-          "rating": 5
+          "rating": 5,
+          "affiliateUrl": "https://runwayml.com?ref=ai-tools-hub",
+          "commission": "15% 佣金"
         },
         {
           "name": "Pika",
@@ -502,7 +516,9 @@
             "语音",
             "高质量"
           ],
-          "rating": 5
+          "rating": 5,
+          "affiliateUrl": "https://elevenlabs.io?ref=ai-tools-hub",
+          "commission": "20% 佣金"
         },
         {
           "name": "Suno",
@@ -545,7 +561,9 @@
             "引用",
             "研究"
           ],
-          "rating": 5
+          "rating": 5,
+          "affiliateUrl": "https://perplexity.ai?ref=ai-tools-hub",
+          "commission": "免费"
         },
         {
           "name": "Mem",
