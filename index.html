@@ -20,7 +20,7 @@
         </h1>
         <p class="text-slate-600 mt-2">汇总常用 AI 工具，帮助开发者快速找到合适的工具</p>
       </div>
-      <!-- Search -->
+      <!-- Search + CTA -->
       <div class="mt-6 max-w-2xl mx-auto">
         <input 
           type="text" 
@@ -29,6 +29,28 @@
           class="w-full px-6 py-3 border border-slate-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm"
           oninput="filterTools()"
         >
+      </div>
+      
+      <!-- Email Subscription -->
+      <div class="mt-8 max-w-xl mx-auto">
+        <div class="bg-gradient-to-r from-blue-500 to-purple-500 rounded-full p-1">
+          <div class="bg-white rounded-full px-6 py-4">
+            <h3 class="text-lg font-bold text-slate-800 mb-2">📬 获取最新 AI 工具资讯</h3>
+            <p class="text-slate-600 text-sm mb-4">每周精选 3-5 个优质 AI 工具，直接发送到你的邮箱</p>
+            <form class="flex gap-2" onsubmit="event.preventDefault(); alert('感谢订阅！小帅会定期发送 AI 工具资讯到你的邮箱 📧');">
+              <input 
+                type="email" 
+                placeholder="输入你的邮箱地址" 
+                class="flex-1 px-4 py-2 border border-slate-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              >
+              <button type="submit" class="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold hover:opacity-90 transition">
+                免费订阅
+              </button>
+            </form>
+            <p class="text-slate-500 text-xs mt-2">🔒 我们保护你的隐私，绝不发送垃圾邮件</p>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -113,6 +135,7 @@
     // Render tool card
     function renderTool(tool, index) {
       const stars = '★'.repeat(tool.rating) + '☆'.repeat(5 - tool.rating);
+      const affiliateUrl = tool.affiliateUrl || tool.url;
       return `
         <div class="tool-card bg-white rounded-xl shadow-sm border border-slate-200 p-6 transition-all duration-300 hover:shadow-lg" data-name="${tool.name.toLowerCase()}" data-tags="${tool.tags.join(' ')}">
           <div class="flex justify-between items-start mb-4">
@@ -127,10 +150,16 @@
               <span class="text-xs px-2 py-1 bg-slate-100 text-slate-600 rounded">${tag}</span>
             `).join('')}
           </div>
-          <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between mb-4">
             <div class="star text-sm">${stars}</div>
-            <a href="${tool.url}" target="_blank" class="text-blue-600 hover:text-blue-700 text-sm font-medium flex items-center gap-1">
-              访问官网 →
+            ${tool.commission ? `<span class="text-xs font-semibold text-green-600">💰 ${tool.commission}</span>` : ''}
+          </div>
+          <div class="flex gap-2">
+            <a href="${affiliateUrl}" target="_blank" class="flex-1 text-center px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:opacity-90 transition text-sm">
+              🚀 立即使用
+            </a>
+            <a href="${tool.url}" target="_blank" class="px-4 py-2 border border-slate-300 text-slate-700 rounded-lg font-semibold hover:bg-slate-50 transition text-sm">
+              官网
             </a>
           </div>
         </div>

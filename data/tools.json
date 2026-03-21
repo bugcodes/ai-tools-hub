@@ -15,15 +15,25 @@
           "url": "https://chat.deepseek.com",
           "description": "国产免费大模型，代码能力强，中文友好",
           "pricing": "免费",
-          "tags": ["免费", "国产", "代码"],
-          "rating": 5
+          "tags": [
+            "免费",
+            "国产",
+            "代码"
+          ],
+          "rating": 5,
+          "affiliateUrl": "https://chat.deepseek.com?ref=ai-tools-hub",
+          "commission": "免费"
         },
         {
           "name": "ChatGPT",
           "url": "https://chat.openai.com",
           "description": "OpenAI 出品，行业标杆，功能最全",
           "pricing": "免费/$20/月",
-          "tags": ["付费", "全能", "生态"],
+          "tags": [
+            "付费",
+            "全能",
+            "生态"
+          ],
           "rating": 5
         },
         {
@@ -31,7 +41,11 @@
           "url": "https://gemini.google.com",
           "description": "Google 生态整合，多模态能力强",
           "pricing": "免费/$20/月",
-          "tags": ["付费", "多模态", "Google"],
+          "tags": [
+            "付费",
+            "多模态",
+            "Google"
+          ],
           "rating": 4
         },
         {
@@ -39,7 +53,11 @@
           "url": "https://claude.ai",
           "description": "Anthropic 出品，长文本处理强",
           "pricing": "免费/$20/月",
-          "tags": ["付费", "长文本", "安全"],
+          "tags": [
+            "付费",
+            "长文本",
+            "安全"
+          ],
           "rating": 5
         },
         {
@@ -47,7 +65,11 @@
           "url": "https://tongyi.aliyun.com",
           "description": "阿里云出品，中文场景优化",
           "pricing": "免费",
-          "tags": ["免费", "国产", "阿里"],
+          "tags": [
+            "免费",
+            "国产",
+            "阿里"
+          ],
           "rating": 4
         },
         {
@@ -55,7 +77,11 @@
           "url": "https://yiyan.baidu.com",
           "description": "百度出品，中文理解好",
           "pricing": "免费",
-          "tags": ["免费", "国产", "百度"],
+          "tags": [
+            "免费",
+            "国产",
+            "百度"
+          ],
           "rating": 3
         }
       ]
@@ -70,50 +96,87 @@
           "url": "https://antigravity.google.com",
           "description": "Google 出品的 AI 编程助手，代码生成、调试、review 一体化",
           "pricing": "免费",
-          "tags": ["免费", "Google", "全能", "大哥常用"],
+          "tags": [
+            "免费",
+            "Google",
+            "全能",
+            "大哥常用"
+          ],
           "rating": 5,
-          "featured": true
+          "featured": true,
+          "affiliateUrl": "https://antigravity.google.com?ref=ai-tools-hub",
+          "commission": "免费"
         },
         {
           "name": "Codex",
           "url": "https://openai.com/codex",
           "description": "OpenAI 代码模型，自然语言转代码，支持多种编程语言",
           "pricing": "按量付费",
-          "tags": ["OpenAI", "代码生成", "API", "大哥常用"],
+          "tags": [
+            "OpenAI",
+            "代码生成",
+            "API",
+            "大哥常用"
+          ],
           "rating": 5,
-          "featured": true
+          "featured": true,
+          "affiliateUrl": "https://openai.com/codex?ref=ai-tools-hub",
+          "commission": "按量付费"
         },
         {
           "name": "Trae",
           "url": "https://trae.com",
           "description": "字节跳动出品的 AI 编程助手，中文友好，智能补全",
           "pricing": "免费",
-          "tags": ["免费", "字节", "中文", "大哥常用"],
+          "tags": [
+            "免费",
+            "字节",
+            "中文",
+            "大哥常用"
+          ],
           "rating": 5,
-          "featured": true
+          "featured": true,
+          "affiliateUrl": "https://trae.com?ref=ai-tools-hub",
+          "commission": "免费"
         },
         {
           "name": "Cursor",
           "url": "https://cursor.com",
           "description": "AI 原生 IDE，代码补全/重构/调试",
           "pricing": "免费/$20/月",
-          "tags": ["IDE", "补全", "重构"],
-          "rating": 5
+          "tags": [
+            "IDE",
+            "补全",
+            "重构"
+          ],
+          "rating": 5,
+          "affiliateUrl": "https://cursor.com?ref=ai-tools-hub",
+          "commission": "20% 佣金"
         },
         {
           "name": "GitHub Copilot",
           "url": "https://github.com/features/copilot",
           "description": "GitHub 官方，VS Code 集成",
           "pricing": "$10/月",
-          "tags": ["补全", "VS Code", "GitHub"],
-          "rating": 5
+          "tags": [
+            "补全",
+            "VS Code",
+            "GitHub"
+          ],
+          "rating": 5,
+          "affiliateUrl": "https://github.com/features/copilot?ref=ai-tools-hub",
+          "commission": "10% 佣金"
         },
         {
           "name": "Codeium",
           "url": "https://codeium.com",
           "description": "免费代码补全，支持多 IDE",
           "pricing": "免费",
-          "tags": ["免费", "补全", "多 IDE"],
+          "tags": [
+            "免费",
+            "补全",
+            "多 IDE"
+          ],
           "rating": 4
         },
         {
@@ -121,7 +184,11 @@
           "url": "https://tabnine.com",
           "description": "老代码补全工具，隐私保护好",
           "pricing": "免费/$12/月",
-          "tags": ["补全", "隐私", "本地"],
+          "tags": [
+            "补全",
+            "隐私",
+            "本地"
+          ],
           "rating": 4
         },
         {
@@ -129,7 +196,11 @@
           "url": "https://replit.com",
           "description": "在线 IDE + AI 辅助",
           "pricing": "免费/$20/月",
-          "tags": ["在线 IDE", "补全", "教学"],
+          "tags": [
+            "在线 IDE",
+            "补全",
+            "教学"
+          ],
           "rating": 4
         }
       ]
@@ -144,7 +215,13 @@
           "url": "https://notebooklm.google.com",
           "description": "Google 出品的 AI 文档工具，上传 PDF/文档自动总结，基于文档问答",
           "pricing": "免费",
-          "tags": ["免费", "Google", "文档", "总结", "大哥常用"],
+          "tags": [
+            "免费",
+            "Google",
+            "文档",
+            "总结",
+            "大哥常用"
+          ],
           "rating": 5,
           "featured": true
         },
@@ -153,7 +230,11 @@
           "url": "https://notion.so",
           "description": "笔记工具集成 AI，知识管理、写作辅助",
           "pricing": "$10/月",
-          "tags": ["笔记", "写作", "整理"],
+          "tags": [
+            "笔记",
+            "写作",
+            "整理"
+          ],
           "rating": 4
         },
         {
@@ -161,7 +242,11 @@
           "url": "https://grammarly.com",
           "description": "英文写作助手，语法检查、风格优化",
           "pricing": "免费/$12-15/月",
-          "tags": ["英文", "语法", "校对"],
+          "tags": [
+            "英文",
+            "语法",
+            "校对"
+          ],
           "rating": 4
         }
       ]
@@ -176,7 +261,12 @@
           "url": "https://youmind.com",
           "description": "AI 思维导图和创作工具，帮助整理思路、生成内容",
           "pricing": "免费/付费",
-          "tags": ["思维导图", "创作", "整理", "大哥常用"],
+          "tags": [
+            "思维导图",
+            "创作",
+            "整理",
+            "大哥常用"
+          ],
           "rating": 5,
           "featured": true
         },
@@ -185,7 +275,11 @@
           "url": "https://xmind.ai",
           "description": "AI 思维导图工具，自动生成思维导图",
           "pricing": "免费/$9.99/月",
-          "tags": ["思维导图", "AI", "整理"],
+          "tags": [
+            "思维导图",
+            "AI",
+            "整理"
+          ],
           "rating": 4
         },
         {
@@ -193,7 +287,11 @@
           "url": "https://miro.com",
           "description": "在线白板 + AI，团队协作、头脑风暴",
           "pricing": "免费/$8/月",
-          "tags": ["白板", "协作", "头脑风暴"],
+          "tags": [
+            "白板",
+            "协作",
+            "头脑风暴"
+          ],
           "rating": 4
         }
       ]
@@ -208,7 +306,12 @@
           "url": "https://stitch.google.com",
           "description": "Google 出品的 AI 设计工具，现代科技感风格，结构化布局，3D 插画",
           "pricing": "免费/付费",
-          "tags": ["Google", "UI 设计", "3D 插画", "现代科技"],
+          "tags": [
+            "Google",
+            "UI 设计",
+            "3D 插画",
+            "现代科技"
+          ],
           "rating": 5,
           "featured": true
         },
@@ -217,7 +320,11 @@
           "url": "https://midjourney.com",
           "description": "AI 绘画标杆，审美上限高",
           "pricing": "$10-120/月",
-          "tags": ["绘画", "付费", "高质量"],
+          "tags": [
+            "绘画",
+            "付费",
+            "高质量"
+          ],
           "rating": 5
         },
         {
@@ -225,7 +332,11 @@
           "url": "https://stability.ai",
           "description": "开源可本地部署，可控性强",
           "pricing": "免费",
-          "tags": ["绘画", "开源", "本地"],
+          "tags": [
+            "绘画",
+            "开源",
+            "本地"
+          ],
           "rating": 4
         },
         {
@@ -233,7 +344,11 @@
           "url": "https://openai.com/dall-e-3",
           "description": "OpenAI 出品，理解准确",
           "pricing": "包含在 ChatGPT Plus",
-          "tags": ["绘画", "付费", "准确"],
+          "tags": [
+            "绘画",
+            "付费",
+            "准确"
+          ],
           "rating": 4
         },
         {
@@ -241,7 +356,11 @@
           "url": "https://leonardo.ai",
           "description": "游戏资产生成强",
           "pricing": "免费/$10-48/月",
-          "tags": ["绘画", "游戏", "资产"],
+          "tags": [
+            "绘画",
+            "游戏",
+            "资产"
+          ],
           "rating": 4
         },
         {
@@ -249,7 +368,11 @@
           "url": "https://figma.com",
           "description": "设计工具集成 AI",
           "pricing": "免费/$12-45/月",
-          "tags": ["UI", "设计", "协作"],
+          "tags": [
+            "UI",
+            "设计",
+            "协作"
+          ],
           "rating": 4
         }
       ]
@@ -264,7 +387,11 @@
           "url": "https://notion.so",
           "description": "笔记工具集成 AI",
           "pricing": "$10/月",
-          "tags": ["笔记", "写作", "整理"],
+          "tags": [
+            "笔记",
+            "写作",
+            "整理"
+          ],
           "rating": 4
         },
         {
@@ -272,7 +399,11 @@
           "url": "https://jasper.ai",
           "description": "营销文案专用",
           "pricing": "$39-125/月",
-          "tags": ["营销", "文案", "付费"],
+          "tags": [
+            "营销",
+            "文案",
+            "付费"
+          ],
           "rating": 4
         },
         {
@@ -280,7 +411,11 @@
           "url": "https://copy.ai",
           "description": "营销内容生成",
           "pricing": "免费/$36-249/月",
-          "tags": ["营销", "文案", "社交媒体"],
+          "tags": [
+            "营销",
+            "文案",
+            "社交媒体"
+          ],
           "rating": 3
         },
         {
@@ -288,7 +423,11 @@
           "url": "https://grammarly.com",
           "description": "英文写作助手",
           "pricing": "免费/$12-15/月",
-          "tags": ["英文", "语法", "校对"],
+          "tags": [
+            "英文",
+            "语法",
+            "校对"
+          ],
           "rating": 4
         }
       ]
@@ -303,7 +442,11 @@
           "url": "https://runwayml.com",
           "description": "AI 视频编辑标杆",
           "pricing": "免费/$12-95/月",
-          "tags": ["视频", "编辑", "生成"],
+          "tags": [
+            "视频",
+            "编辑",
+            "生成"
+          ],
           "rating": 5
         },
         {
@@ -311,7 +454,11 @@
           "url": "https://pika.art",
           "description": "文生视频新贵",
           "pricing": "免费/$8-58/月",
-          "tags": ["视频", "生成", "文生视频"],
+          "tags": [
+            "视频",
+            "生成",
+            "文生视频"
+          ],
           "rating": 4
         },
         {
@@ -319,7 +466,11 @@
           "url": "https://heygen.com",
           "description": "数字人视频生成",
           "pricing": "免费/$24-96/月",
-          "tags": ["数字人", "口播", "营销"],
+          "tags": [
+            "数字人",
+            "口播",
+            "营销"
+          ],
           "rating": 4
         },
         {
@@ -327,7 +478,11 @@
           "url": "https://descript.com",
           "description": "视频剪辑 + 文字稿编辑",
           "pricing": "免费/$12-24/月",
-          "tags": ["剪辑", "文字稿", "播客"],
+          "tags": [
+            "剪辑",
+            "文字稿",
+            "播客"
+          ],
           "rating": 4
         }
       ]
@@ -342,7 +497,11 @@
           "url": "https://elevenlabs.io",
           "description": "TTS 标杆，声音自然",
           "pricing": "免费/$5-330/月",
-          "tags": ["TTS", "语音", "高质量"],
+          "tags": [
+            "TTS",
+            "语音",
+            "高质量"
+          ],
           "rating": 5
         },
         {
@@ -350,7 +509,11 @@
           "url": "https://suno.com",
           "description": "AI 音乐生成",
           "pricing": "免费/$8-24/月",
-          "tags": ["音乐", "生成", "歌曲"],
+          "tags": [
+            "音乐",
+            "生成",
+            "歌曲"
+          ],
           "rating": 4
         },
         {
@@ -358,7 +521,11 @@
           "url": "https://podcast.adobe.com",
           "description": "音频增强/降噪",
           "pricing": "免费",
-          "tags": ["音频", "增强", "免费"],
+          "tags": [
+            "音频",
+            "增强",
+            "免费"
+          ],
           "rating": 4
         }
       ]
@@ -373,7 +540,11 @@
           "url": "https://perplexity.ai",
           "description": "AI 搜索引擎，带引用",
           "pricing": "免费/$20/月",
-          "tags": ["搜索", "引用", "研究"],
+          "tags": [
+            "搜索",
+            "引用",
+            "研究"
+          ],
           "rating": 5
         },
         {
@@ -381,7 +552,11 @@
           "url": "https://mem.ai",
           "description": "AI 笔记，自动整理",
           "pricing": "免费/$15-30/月",
-          "tags": ["笔记", "整理", "知识管理"],
+          "tags": [
+            "笔记",
+            "整理",
+            "知识管理"
+          ],
           "rating": 3
         },
         {
@@ -389,7 +564,11 @@
           "url": "https://otter.ai",
           "description": "会议录音转文字",
           "pricing": "免费/$8-30/月",
-          "tags": ["会议", "转录", "笔记"],
+          "tags": [
+            "会议",
+            "转录",
+            "笔记"
+          ],
           "rating": 4
         },
         {
@@ -397,7 +576,11 @@
           "url": "https://zapier.com",
           "description": "自动化工作流 + AI",
           "pricing": "免费/$20-150/月",
-          "tags": ["自动化", "工作流", "集成"],
+          "tags": [
+            "自动化",
+            "工作流",
+            "集成"
+          ],
           "rating": 4
         }
       ]
