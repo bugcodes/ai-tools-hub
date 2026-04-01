@@ -83,6 +83,18 @@
             "百度"
           ],
           "rating": 3
+        },
+        {
+          "name": "智谱清言",
+          "url": "https://chatglm.cn",
+          "description": "清华智谱，国产大模型第一梯队",
+          "pricing": "免费",
+          "tags": [
+            "免费",
+            "国产",
+            "清华"
+          ],
+          "rating": 4
         }
       ]
     },
@@ -204,6 +216,34 @@
             "教学"
           ],
           "rating": 4
+        },
+        {
+          "name": "Claude Code",
+          "url": "https://claude.ai/code",
+          "description": "Anthropic 官方 CLI 工具，终端里的 AI 编程助手",
+          "pricing": "$20/月",
+          "tags": [
+            "付费",
+            "CLI",
+            "终端",
+            "Agent"
+          ],
+          "rating": 5,
+          "new": true
+        },
+        {
+          "name": "Codex CLI",
+          "url": "https://github.com/agent-sh/codex",
+          "description": "OpenAI 官方 CLI，代码执行能力强",
+          "pricing": "按量付费",
+          "tags": [
+            "付费",
+            "CLI",
+            "OpenAI",
+            "代码执行"
+          ],
+          "rating": 5,
+          "new": true
         }
       ]
     },
